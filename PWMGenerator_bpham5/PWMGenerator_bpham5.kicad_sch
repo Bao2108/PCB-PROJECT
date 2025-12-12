@@ -1824,6 +1824,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NANOSMDC016F-2:NANOSMDC016F-2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "NANOSMDC016F-2"
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "NANOSMDC016F-2:RESC3115X65N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NANOSMDC016F-2_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:LM7805_TO220"
 			(pin_names
 				(offset 0.254)
@@ -2674,12 +2875,6 @@
 		(uuid "61396288-0cd5-4549-9039-0008eb7fd65d")
 	)
 	(junction
-		(at 26.67 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "630f7c2b-281b-49c1-8816-5f5bad4760ed")
-	)
-	(junction
 		(at 180.34 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2722,12 +2917,6 @@
 		(uuid "872514cf-9f42-4109-8442-c14a5f5a3d29")
 	)
 	(junction
-		(at 63.5 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "968d20c9-c5e5-4393-88c3-2b1b08b0c273")
-	)
-	(junction
 		(at 199.39 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2744,6 +2933,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9efdc69b-e909-4d91-a39a-e55d15b46734")
+	)
+	(junction
+		(at 64.77 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3321419-a90e-4d1f-aa90-d8e2261f1cef")
 	)
 	(junction
 		(at 199.39 111.76)
@@ -3063,16 +3258,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 118.11) (xy 25.4 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "598e3422-ace9-4032-881f-f2cf133ee736")
-	)
-	(wire
-		(pts
 			(xy 181.61 133.35) (xy 181.61 137.16)
 		)
 		(stroke
@@ -3080,6 +3265,16 @@
 			(type default)
 		)
 		(uuid "5dc25c80-7a3f-4d3c-bba6-33077088fef8")
+	)
+	(wire
+		(pts
+			(xy 26.67 82.55) (xy 38.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60851766-e8df-4244-8aab-7de36131eaf3")
 	)
 	(wire
 		(pts
@@ -3173,7 +3368,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 127) (xy 55.88 127)
+			(xy 55.88 127) (xy 64.77 127)
 		)
 		(stroke
 			(width 0)
@@ -3203,13 +3398,23 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 113.03) (xy 26.67 113.03)
+			(xy 26.67 105.41) (xy 26.67 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a3990cf-dab0-4302-96c8-833aaf832d28")
+		(uuid "715ee794-b336-4eef-8e70-0d56c62a2c4b")
+	)
+	(wire
+		(pts
+			(xy 64.77 132.08) (xy 64.77 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ecb7ec-e957-42b7-a826-4814a4885fa0")
 	)
 	(wire
 		(pts
@@ -3230,6 +3435,26 @@
 			(type default)
 		)
 		(uuid "7a90c6d6-3f74-470f-a26e-7806c7a5e775")
+	)
+	(wire
+		(pts
+			(xy 25.4 114.3) (xy 25.4 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0ca1db-7f05-4faf-8b91-8f76614d542f")
+	)
+	(wire
+		(pts
+			(xy 53.34 82.55) (xy 64.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3734c5-ad48-4466-bc6b-8fa34d80f9e4")
 	)
 	(wire
 		(pts
@@ -3273,6 +3498,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 109.22) (xy 26.67 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82683cce-cb08-4465-a527-13f294ce169a")
+	)
+	(wire
+		(pts
 			(xy 158.75 137.16) (xy 142.24 137.16)
 		)
 		(stroke
@@ -3283,16 +3518,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 133.35) (xy 63.5 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85757af2-e000-4ff6-b843-63c32c557b79")
-	)
-	(wire
-		(pts
 			(xy 254 123.19) (xy 250.19 123.19)
 		)
 		(stroke
@@ -3300,16 +3525,6 @@
 			(type default)
 		)
 		(uuid "85e5ec89-415f-4ff6-b82f-fbd4e0673040")
-	)
-	(wire
-		(pts
-			(xy 26.67 133.35) (xy 63.5 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86346376-fbed-44ee-b7d3-14c79572017e")
 	)
 	(wire
 		(pts
@@ -3380,16 +3595,6 @@
 			(type default)
 		)
 		(uuid "90f32ad6-96c6-4c79-93c9-b289fe1f29cb")
-	)
-	(wire
-		(pts
-			(xy 26.67 113.03) (xy 26.67 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91c53091-8cb3-46a2-90de-54ca0530277b")
 	)
 	(wire
 		(pts
@@ -3480,16 +3685,6 @@
 			(type default)
 		)
 		(uuid "9d130858-e923-46ff-80ec-23f3b6d32b18")
-	)
-	(wire
-		(pts
-			(xy 73.66 127) (xy 63.5 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7a1669b-4fb1-4ba0-a8e5-0213fea6601a")
 	)
 	(wire
 		(pts
@@ -3643,13 +3838,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 82.55) (xy 64.77 82.55)
+			(xy 64.77 127) (xy 73.66 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1902557-ccda-4050-9632-44e99606d7a4")
+		(uuid "d267eec4-e342-405b-8ff7-e5838ae04fe3")
 	)
 	(wire
 		(pts
@@ -3763,16 +3958,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 137.16) (xy 40.64 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1d6378f-40cb-43e0-a9ba-c3d3d1f5bb7d")
-	)
-	(wire
-		(pts
 			(xy 140.97 104.14) (xy 140.97 95.25)
 		)
 		(stroke
@@ -3813,16 +3998,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 105.41) (xy 26.67 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa32a56e-87bd-4ae3-ab17-cea663db927d")
-	)
-	(wire
-		(pts
 			(xy 189.23 121.92) (xy 189.23 125.73)
 		)
 		(stroke
@@ -3840,6 +4015,16 @@
 			(type default)
 		)
 		(uuid "fce95d87-ffa0-473e-941b-e94454affd10")
+	)
+	(wire
+		(pts
+			(xy 25.4 132.08) (xy 64.77 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd36dcf2-4c20-4f20-95cc-acfd5afa4394")
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
@@ -4518,110 +4703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Barrel_Jack")
-		(at 17.78 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5143f004-033b-495e-a140-4991d9f75eca")
-		(property "Reference" "V1"
-			(at 17.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSIN"
-			(at 17.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
-			(at 19.05 116.586 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 116.586 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack"
-			(at 17.78 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 17.78 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "dc=0 ampl=1 f=1k ac=1"
-			(at 17.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "SIN"
-			(at 17.78 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 17.78 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "18531888-e4e6-4c34-9557-5e2603bc9eba")
-		)
-		(pin "1"
-			(uuid "673fa011-5715-43c8-8334-9bc0a5829aec")
-		)
-		(instances
-			(project ""
-				(path "/0859a153-53e5-453d-9797-4636ab796f1d"
-					(reference "V1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 170.18 101.6 0)
 		(unit 1)
@@ -4826,6 +4907,75 @@
 			(project ""
 				(path "/0859a153-53e5-453d-9797-4636ab796f1d"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOSMDC016F-2:NANOSMDC016F-2")
+		(at 45.72 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63a60613-adb9-4f78-ae68-878abf6bff0f")
+		(property "Reference" "R11"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NANOSMDC016F-2"
+			(at 45.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NANOSMDC016F-2:RESC3115X65N"
+			(at 45.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d3b9e1d-1d5c-4271-ae22-667ecef53d98")
+		)
+		(pin "1"
+			(uuid "f9c637cf-8612-4aca-8e0a-1cc3ef8886b7")
+		)
+		(instances
+			(project ""
+				(path "/0859a153-53e5-453d-9797-4636ab796f1d"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6051,6 +6201,74 @@
 			(project ""
 				(path "/0859a153-53e5-453d-9797-4636ab796f1d"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Barrel_Jack")
+		(at 17.78 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f00e43f8-e8b1-429b-a9c5-c06a0b71cf7a")
+		(property "Reference" "J2"
+			(at 17.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack"
+			(at 17.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
+			(at 19.05 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 17.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2463c11-2dae-4327-88bc-dd0b0390cc3b")
+		)
+		(pin "1"
+			(uuid "a0fcf0d4-97a1-4bdf-a621-27aed314a00e")
+		)
+		(instances
+			(project ""
+				(path "/0859a153-53e5-453d-9797-4636ab796f1d"
+					(reference "J2")
 					(unit 1)
 				)
 			)
