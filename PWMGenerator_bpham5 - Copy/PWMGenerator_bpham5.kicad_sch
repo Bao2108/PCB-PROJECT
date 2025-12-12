@@ -4870,7 +4870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+		(property "Footprint" "LED_THT:LED_D5.0mm_GREEN"
 			(at 154.305 113.03 0)
 			(effects
 				(font
@@ -4938,7 +4938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NANOSMDC016F_2:RESC3115X65N"
+		(property "Footprint" "NANOSMDC016F-2:RESC3115X65N"
 			(at 45.72 82.55 0)
 			(effects
 				(font
